@@ -2,7 +2,7 @@
 
 https://three.rizalrenaldi.com
 
-Boilerplate forked from: https://github.com/InfoSysRodener/ThreeJs-Vite-BoilerPlate
+Boilerplate forked from: https://github.com/InfoSysRodener/ThreeJs-Vite-BoilerPlate with modification to support Multi page application
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).

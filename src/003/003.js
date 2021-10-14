@@ -1,8 +1,6 @@
 import '../style.css'
 import * as THREE from 'three';
 import * as dat from 'dat.gui';
-// import SceneManager from '../sceneManager/scene';
-// import gsap from 'gsap';
 
 //loader
 const textureLoader = new THREE.TextureLoader()
