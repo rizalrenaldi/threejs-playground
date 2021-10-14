@@ -1,17 +1,25 @@
 const { resolve } = require('path')
 import { defineConfig } from 'vite'
+// import mpa from 'vite-plugin-mpa'
 
 export default defineConfig( {
-  plugins:[],
+  // plugins: [
+  //   mpa({
+  //     open: '/',
+  //     scanDir: './src'
+  //   })
+  // ],
   root: "src",
   publicDir: "../public",
   build: {
-    outDir: "../dist",
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, '001/001.html')
+        main: resolve(__dirname, 'src/index.html'),
+        one: resolve(__dirname, 'src/001/index.html'),
+        two: resolve(__dirname, 'src/002/index.html'),
+        three: resolve(__dirname, 'src/003/index.html'),
       }
-    }
+    },
+    outDir: "../src/dist",
   }
 } )
