@@ -1,6 +1,7 @@
 import '../style.css'
 import * as THREE from 'three';
-import * as dat from 'dat.gui';
+// import * as dat from 'dat.gui';
+import * as dat from '../libs/dat.gui.module';
 
 //loader
 const textureLoader = new THREE.TextureLoader()
