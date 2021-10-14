@@ -4,7 +4,7 @@ import * as dat from 'dat.gui';
 
 //loader
 const textureLoader = new THREE.TextureLoader()
-const normalTexture = textureLoader.load('./textures/2K-aluminium_foil_1_normal.png')
+const normalTexture = textureLoader.load('/2K-aluminium_foil_1_normal.png')
 
 // Debug
 const gui = new dat.GUI()
