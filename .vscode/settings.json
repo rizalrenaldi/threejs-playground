@@ -1,0 +1,14 @@
+{
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#03257b",
+    "tab.activeForeground": "#fff",
+    "activityBar.background": "#03257b",
+    "titleBar.activeBackground": "#0284c7",
+    "titleBar.activeForeground": "#FBFAFA"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "window.title": "${activeEditorShort}${separator}${rootName} ${separator} [Branch: master]"
+}
