@@ -1,6 +1,6 @@
 # My ThreeJs Playground
 
-https://three.rizalrenaldi.com
+https://threejs.rizalrenaldi.com
 
 Boilerplate forked from: https://github.com/InfoSysRodener/ThreeJs-Vite-BoilerPlate with modification to support Multi page application
 
